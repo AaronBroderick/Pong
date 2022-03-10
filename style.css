@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(0, 205, 69);
+}
+
+#title{
+    color: white;
+    font-size: 120px;
+}
+
+#pong{
+    text-align: center;
+    margin-top: 80px;
+}
+
+#singleText{
+    color: white;
+    font-size: 70px;
+    cursor: pointer;
+}
+
+#sp{
+    margin-left: 100px;
+    display: inline-block;
+}
+
+#multiText{
+    color: white;
+    font-size: 70px;
+    cursor: pointer;
+}
+
+#mp{
+    text-align: right;
+    margin-left: 460px;
+    margin-top: 125px;
+    display: inline-block;
+}
+
+#paddle1{
+    background-color: white;
+    height: 160px;
+    width: 35px;
+    margin-left: 40px;
+    margin-top: 100px;
+    display: none;
+}
+
+#paddle2{
+    background-color: white;
+    height: 160px;
+    width: 35px;
+    margin-left: 1360px;
+    margin-top: -160px;
+    display: none;
+}
+
+#paddleComputer{
+    background-color: white;
+    height: 160px;
+    width: 35px;
+    margin-left: 1360px;
+    margin-top: -160px;
+    display: none;
+}
+
+
+#line{
+    background-color: white;
+    width: 1px;
+    height: 915px;
+    margin-left: 700px;
+    margin-top: -600px;
+    display: none;
+}
+
+#ball{
+    background-color: white;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-top: -425px;
+    margin-left: 670px;
+    display: none;
+}
+
+#player1Score{
+    color: white;
+    font-size: 70px;
+    margin-top: -420px;
+    margin-left: 637px;
+    display: none;
+}
+
+#player2Score{
+    color: white;
+    font-size: 70px;
+    margin-top: -152px;
+    margin-left: 730px;
+    display: none;
+}
+
+#computerScore{
+    color: white;
+    font-size: 70px;
+    margin-top: -152px;
+    margin-left: 730px;
+    display: none;
+}
